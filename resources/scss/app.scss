@@ -34,7 +34,7 @@ ul {
 
 // FOOTER
 .top-footer {
-    // background-image: url(/footer-bg.jpg);
+    background-image: url(../img/footer-bg.jpg);
     position: relative;
     height: 480px;
     z-index: -1;
@@ -137,4 +137,29 @@ ul {
     position: relative;
     top: 10px;
     left: 70px;
+}
+
+// fascia azzurra
+.buy {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    height: 100%;
+    align-items: center;
+
+    li span {
+        padding: 10px;
+        text-decoration: none;
+        color: white;
+    }
+
+}
+
+.immagini {
+    width: 50px;
+}
+
+.dc-info {
+    background-color: rgba(2, 130, 249, 255);
+    padding: 50px 0px;
 }

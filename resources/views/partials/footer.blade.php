@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-2">
                     <h3 class="titolo-footer">dc comics</h3>
-                    <ul class="list-top-footer">
+                    <ul class="list-top-footer flex-column">
                         <li>Characters</li>
                         <li>Comics</li>
                         <li>Movies</li>
@@ -14,14 +14,14 @@
                         <li>News</li>
                     </ul>
                     <h3 class="titolo-footer">shop</h3>
-                    <ul class="list-top-footer">
+                    <ul class="list-top-footer flex-column">
                         <li>Shop DC</li>
                         <li>Shop DC Collectibles</li>
                     </ul>
                 </div>
                 <div class="col-2">
                     <h3 class="titolo-footer">dc</h3>
-                    <ul class="list-top-footer">
+                    <ul class="list-top-footer flex-column">
                         <li>Terms Of Use</li>
                         <li>Privacy Police (New)</li>
                         <li>Ad Choices</li>
@@ -37,7 +37,7 @@
                 </div>
                 <div class="col-2">
                     <h3 class="titolo-footer">sites</h3>
-                    <ul class="list-top-footer">
+                    <ul class="list-top-footer flex-column">
                         <li>DC</li>
                         <li>MAD Magazine</li>
                         <li>DC Kids</li>
@@ -46,7 +46,7 @@
                     </ul>
                 </div>
                 <div class="col-6">
-                    <img class="img-dc" src="/dc-logo-bg.png" alt="">
+                    <img class="img-dc" src="{{ Vite::asset('resources/img/dc-logo-bg.png')}}" alt="">
                 </div>
             </div>
         </div>
