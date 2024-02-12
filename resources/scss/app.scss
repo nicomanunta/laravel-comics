@@ -1,10 +1,10 @@
 @import '~bootstrap/scss/bootstrap';
 
+
+// HEADER
 header {
     margin: 20px 0px;
 }
-
-
 
 ul {
     display: flex;
@@ -32,6 +32,92 @@ ul {
     top: -45px !important;
 }
 
+// FOOTER
+.top-footer {
+    // background-image: url(/footer-bg.jpg);
+    position: relative;
+    height: 480px;
+    z-index: -1;
+
+}
+
+.titolo-footer {
+    text-transform: uppercase;
+    color: white;
+    padding-top: 20px;
+}
+
+.titolo-footer:hover {
+    color: white;
+}
+
+.list-top-footer {
+    padding: 0px;
+
+    li {
+        color: rgb(156, 154, 154);
+        list-style: none;
+        padding: 5px 0px;
+    }
+
+    li:hover {
+        color: white;
+        cursor: pointer;
+    }
+}
+
+.img-dc {
+    position: relative;
+    bottom: 50px;
+}
+
+.bottom-footer {
+    background-color: rgba(48, 48, 48, 255);
+
+    top: 97px;
+    width: 100%;
+}
+
+.color-button {
+    text-transform: uppercase;
+    color: white;
+    background-color: transparent;
+    border: 2px solid rgba(2, 130, 249, 255);
+    padding: 5px 10px;
+    margin: 30px 0px;
+
+    &:hover {
+        background-color: rgba(2, 130, 249, 255);
+    }
+
+}
+
+.list-bottom-footer {
+
+    display: flex;
+    list-style: none;
+    vertical-align: middle;
+    margin: 0;
+
+    li {
+        padding: 0px 10px;
+
+
+    }
+
+}
+
+.follow {
+    color: rgba(2, 130, 249, 255);
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 600;
+    vertical-align: middle;
+}
+
+
+
+// MAIN COMICS
 .jumbotron {
     position: relative;
     height: 300px;

@@ -8,7 +8,7 @@
                 <nav class="navbar-nav container navbar-light">
                     <ul class="list-unstyled d-flex justify-content-end">
                         <li class=" nav-item "><a class="active" href="">CHARACTERS</a></li>
-                        <li class=" nav-item "><a class="active" href="">COMICS</a></li>
+                        <li class=" nav-item "><a class="active" href="{{ route('comics')}}">COMICS</a></li>
                         <li class=" nav-item "><a class="active" href="">MOVIES</a></li>
                         <li class=" nav-item "><a class="active" href="">TV</a></li>
                         <li class=" nav-item "><a class="active" href="">GAMES</a></li>

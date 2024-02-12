@@ -25,6 +25,7 @@
             <span class="current">current series</span>
         </div>
     </main>
+    @include('partials.footer')
 
 </body>
 
