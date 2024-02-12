@@ -7,15 +7,15 @@
             <div class="col-9 d-flex align-items-center justify-content-start">
                 <nav class="navbar-nav container navbar-light">
                     <ul class="list-unstyled d-flex justify-content-end">
-                        <li class=" nav-item "><a class="active" href="">CHARACTERS</a></li>
-                        <li class=" nav-item "><a class="active" href="{{ route('comics')}}">COMICS</a></li>
-                        <li class=" nav-item "><a class="active" href="">MOVIES</a></li>
-                        <li class=" nav-item "><a class="active" href="">TV</a></li>
-                        <li class=" nav-item "><a class="active" href="">GAMES</a></li>
-                        <li class=" nav-item "><a class="active" href="">COLLECTIBLES</a></li>
-                        <li class=" nav-item "><a class="active" href="">VIDEOS</a></li>
-                        <li class=" nav-item "><a class="active" href="">FANS</a></li>
-                        <li class=" nav-item "><a class="active" href="">NEWS</a></li>
+                        <li class="nav-item"><a class="active" href="">CHARACTERS</a></li>
+                        <li class="nav-item "><a class="active {{Route::currentRouteName()=== 'comics' ? 'current-route' : '' }}" href="{{ route('comics')}}">COMICS</a></li>
+                        <li class="nav-item "><a class="active" href="">MOVIES</a></li>
+                        <li class="nav-item "><a class="active" href="">TV</a></li>
+                        <li class="nav-item "><a class="active" href="">GAMES</a></li>
+                        <li class="nav-item "><a class="active" href="">COLLECTIBLES</a></li>
+                        <li class="nav-item "><a class="active" href="">VIDEOS</a></li>
+                        <li class="nav-item "><a class="active" href="">FANS</a></li>
+                        <li class="nav-item "><a class="active" href="">NEWS</a></li>
                         <li class="nav-item dropdown">
                             <a class="nav-item dropdown-toggle active" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                               SHOP

@@ -32,6 +32,11 @@ ul {
     top: -45px !important;
 }
 
+.current-route {
+    color: rgba(2, 130, 249, 255);
+    border-bottom: 4px solid rgba(2, 130, 249, 255);
+}
+
 // FOOTER
 .top-footer {
     background-image: url(../img/footer-bg.jpg);
@@ -137,6 +142,41 @@ ul {
     position: relative;
     top: 10px;
     left: 70px;
+}
+
+// card fumetti
+.fumetti {
+    background-color: black;
+    width: 100%;
+}
+
+.img-fumetti {
+    width: 100%;
+    height: 200px;
+}
+
+.titolo-fumetto {
+    color: white;
+}
+
+.distanza {
+    margin-top: 10px
+}
+
+.color-button {
+    text-transform: uppercase;
+    color: $colore-secondario;
+    background-color: $colore-primario;
+    border: 1px solid $colore-primario;
+    padding: 5px 40px;
+    margin-bottom: 30px;
+
+    &:hover {
+        cursor: pointer;
+        color: $colore-primario;
+        background-color: $colore-secondario;
+
+    }
 }
 
 // fascia azzurra

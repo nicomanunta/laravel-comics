@@ -24,6 +24,24 @@
         <div>
             <span class="current">current series</span>
         </div>
+        <div class="fumetti">
+            <div class="container">
+                <div class="row py-5">
+                    <CardFumetti v-for="fumetto, index in fumetti" :fumetto="fumetto"/>
+                    <div class="col-2 d-flex mt-4" >
+                        <div style="width: 18rem;">
+                            <img class="img-fumetti" src="" alt="">
+                            <div class="distanza">
+                                <h6 class="titolo-fumetto"></h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center ">
+                <button class="color-button">load more</button>
+            </div>
+        </div>
 
 
 
