@@ -1,1 +1,29 @@
 @import '~bootstrap/scss/bootstrap';
+
+header {
+    margin: 20px 0px;
+}
+
+
+
+ul {
+    display: flex;
+    list-style: none;
+
+
+
+    li a {
+        padding: 10px;
+        padding-bottom: 50px;
+        text-decoration: none;
+        color: black;
+
+
+
+        &.active:hover {
+            color: rgba(2, 130, 249, 255);
+            border-bottom: 4px solid rgba(2, 130, 249, 255);
+        }
+    }
+
+}
