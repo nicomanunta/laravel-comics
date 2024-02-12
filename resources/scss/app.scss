@@ -31,3 +31,24 @@ ul {
 .inset {
     top: -45px !important;
 }
+
+.jumbotron {
+    position: relative;
+    height: 300px;
+    z-index: -1;
+}
+
+.img-jumbotron {
+    width: 100%;
+}
+
+.current {
+    text-transform: uppercase;
+    background-color: rgba(2, 130, 249, 255);
+    color: white;
+    padding: 10px 12px;
+    font-weight: 700;
+    position: relative;
+    top: 10px;
+    left: 70px;
+}

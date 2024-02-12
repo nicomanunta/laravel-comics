@@ -4,7 +4,7 @@
             <div class="col-3 text-center">
                 <img src="{{ Vite::asset('resources/img/dc-logo.png')}}" alt="DC ">
             </div>
-            <div class="col-9 d-flex align-items-center justify-content-end  ">
+            <div class="col-9 d-flex align-items-center justify-content-start">
                 <nav class="navbar-nav container navbar-light">
                     <ul class="list-unstyled d-flex justify-content-end">
                         <li class=" nav-item "><a class="active" href="">CHARACTERS</a></li>
