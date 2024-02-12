@@ -61,11 +61,11 @@
                 <div class="col-6 d-flex align-items-center justify-content-end ">
                     <span class="follow">follow us</span>
                     <ul class="list-bottom-footer">
-                        <li><img src="/public/footer-facebook.png" alt=""></li>
-                        <li><img src="/public/footer-youtube.png" alt=""></li>
-                        <li><img src="/public/footer-twitter.png" alt=""></li>
-                        <li><img src="/public/footer-pinterest.png" alt=""></li>
-                        <li><img src="/public/footer-periscope.png" alt=""></li>
+                        <li><img src="{{ Vite::asset('resources/img/footer-facebook.png')}}" alt=""></li>
+                        <li><img src="{{ Vite::asset('resources/img/footer-youtube.png')}}" alt=""></li>
+                        <li><img src="{{ Vite::asset('resources/img/footer-twitter.png')}}" alt=""></li>
+                        <li><img src="{{ Vite::asset('resources/img/footer-pinterest.png')}}" alt=""></li>
+                        <li><img src="{{ Vite::asset('resources/img/footer-periscope.png')}}" alt=""></li>
                         
                     </ul>
                 </div>
