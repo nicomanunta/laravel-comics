@@ -165,16 +165,16 @@ ul {
 
 .color-button {
     text-transform: uppercase;
-    color: $colore-secondario;
-    background-color: $colore-primario;
-    border: 1px solid $colore-primario;
+    color: white;
+    background-color: rgba(2, 130, 249, 255);
+    border: 1px solid rgba(2, 130, 249, 255);
     padding: 5px 40px;
     margin-bottom: 30px;
 
     &:hover {
         cursor: pointer;
-        color: $colore-primario;
-        background-color: $colore-secondario;
+        color: rgba(2, 130, 249, 255);
+        background-color: white;
 
     }
 }
