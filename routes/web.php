@@ -34,7 +34,7 @@ Route::get('/comics/{param}', function ($id) {
     }
 
 
-    return view('comics', compact('comics'));
+    return view('detail_comic', compact('comic'));
 })-> name("detail-comic");
 
 

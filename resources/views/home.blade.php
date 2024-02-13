@@ -1,5 +1,5 @@
 @extends('layout.app')
-    @section('home')
+@section('content')
     <div class="jumbotron">
         <img class="img-jumbotron" src="{{ Vite::asset('resources/img/jumbotron.jpg')}}" alt="">
     </div>
@@ -35,4 +35,4 @@
         </div>
     </div>
 
-    @endsection
+@endsection

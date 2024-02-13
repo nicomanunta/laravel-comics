@@ -74,6 +74,7 @@ ul {
 .img-dc {
     position: relative;
     bottom: 50px;
+    z-index: -1;
 }
 
 .bottom-footer {
@@ -202,4 +203,30 @@ ul {
 .dc-info {
     background-color: rgba(2, 130, 249, 255);
     padding: 50px 0px;
+
+}
+
+
+//single-comic
+.border-radius {
+    border-radius: 20px;
+}
+
+.single-comic {
+    width: 60%;
+}
+
+.button-price {
+    background-color: rgba(2, 130, 249, 255);
+    color: white;
+
+    &:hover {
+        color: rgba(2, 130, 249, 255);
+        ;
+        background-color: white;
+    }
+}
+
+.misure {
+    font-size: 10px;
 }
