@@ -18,8 +18,10 @@
 <body>
     @include('partials.header')
     <main>
-       
+        @include('partials.jumbotron')
         @yield('content')
+        @include('partials.buy')
+
     </main>
     @include('partials.footer')
 
