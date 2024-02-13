@@ -23,6 +23,20 @@ Route::get('/comics', function () {
 })-> name("comics");
 
 
+Route::get('/comics/{param}', function ($id) {
+    $comics = config("comics");
+
+    $comic = null;
+    foreach($comics as $item){
+        if($item["id"] == $id){
+            $comic = $item;
+        }
+    }
+
+
+    return view('comics', compact('comics'));
+})-> name("detail-comic");
+
 
 
 

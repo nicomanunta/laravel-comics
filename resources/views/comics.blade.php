@@ -13,10 +13,12 @@
                     @foreach ($comics as $comic)  
                         <div class="col-2 d-flex mt-4" >
                             <div style="width: 18rem;">
-                                <img class="img-fumetti" src="{{ $comic['thumb'] }}" alt="">
-                                <div class="distanza">
-                                    <h6 class="titolo-fumetto">{{ $comic['title']}}</h6>
-                                </div>
+                                <a href="{{ route('detail-comic', ['param' => $comic['id']])}}">
+                                    <img class="img-fumetti" src="{{ $comic['thumb'] }}" alt="">
+                                    <div class="distanza">
+                                        <h6 class="titolo-fumetto">{{ $comic['title']}}</h6>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     @endforeach
