@@ -17,7 +17,7 @@
                 <div class="">
                     <span class="badge text-bg-light">{{$comic["series"]}}</span>
                     <span class="badge text-bg-light">{{$comic["type"]}}</span>
-                </div>
+                </div> 
             </div>
         </div>
     </div>
